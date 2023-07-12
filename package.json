@@ -2,7 +2,11 @@
   "name": "axios-fetch-adapter",
   "version": "1.0.0",
   "description": "Fetch Adapter for axios",
-  "main": "./lib/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "repository": "git@github.com:spekit-co/axios-fetch-adapter.git",
   "author": "Syed Shamikh Shabbir <shamikh@spekit.co>",
   "license": "MIT",
