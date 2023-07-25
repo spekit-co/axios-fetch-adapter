@@ -12,8 +12,6 @@
     "url": "git@github.com:spekit-co/axios-fetch-adapter.git"
   },
   "author": "Syed Shamikh Shabbir <shamikh@spekit.co>",
-  "license": "MIT",
-  "private": true,
   "devDependencies": {
     "@types/node": "^20.4.1",
     "axios": "^1.4.0",
