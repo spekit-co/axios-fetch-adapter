@@ -2,7 +2,7 @@
 
 import utils from "../utils";
 
-function encode(val) {
+export function encode(val: string) {
   return encodeURIComponent(val)
     .replace(/%3A/gi, ":")
     .replace(/%24/g, "$")
@@ -19,7 +19,11 @@ function encode(val) {
  * @param {object} [params] The params to be appended
  * @returns {string} The formatted url
  */
-export default function buildURL(url, params, paramsSerializer) {
+export default function buildURL(
+  url: string,
+  params?: object,
+  paramsSerializer?
+): string {
   /*eslint no-param-reassign:0*/
   if (!params) {
     return url;
