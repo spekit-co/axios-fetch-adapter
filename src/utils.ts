@@ -168,16 +168,6 @@ function forEach(obj, fn) {
   }
 }
 
-/*
- * determines whether a string ends with the characters of a specified string
- * @param {String} str
- * @param {String} searchString
- * @param {Number} [position= 0]
- * @returns {boolean}
- */
-
-// eslint-disable-next-line func-names
-
 export { isArray };
 export { isObject };
 export { isDate };
@@ -197,69 +187,3 @@ export default {
   isStandardBrowserEnv,
   forEach,
 };
-
-/*
-export { isArray };
-export { isArrayBuffer };
-export { isBuffer };
-export { isFormData };
-export { isArrayBufferView };
-export { isString };
-export { isNumber };
-export { isObject };
-export { isPlainObject };
-export { isUndefined };
-export { isDate };
-export { isFile };
-export { isBlob };
-export { isFunction };
-export { isStream };
-export { isURLSearchParams };
-export { isStandardBrowserEnv };
-export { forEach };
-
-export { extend };
-export { trim };
-export { stripBOM };
-export { inherits };
-export { toFlatObject };
-export { kindOf };
-export { kindOfTest };
-export { endsWith };
-export { toArray };
-export { isTypedArray };
-export { isFileList };
-
-export default {
-  isArray,
-  isArrayBuffer,
-  isBuffer,
-  isFormData,
-  isArrayBufferView,
-  isString,
-  isNumber,
-  isObject,
-  isPlainObject,
-  isUndefined,
-  isDate,
-  isFile,
-  isBlob,
-  isFunction,
-  isStream,
-  isURLSearchParams,
-  isStandardBrowserEnv,
-  forEach,
-
-  extend,
-  trim,
-  stripBOM,
-  inherits,
-  toFlatObject,
-  kindOf,
-  kindOfTest,
-  endsWith,
-  toArray,
-  isTypedArray,
-  isFileList,
-};
-*/
